@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/lucida-handwriting-std" rel="stylesheet">
+    <title>Document</title>
+</head>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<header>
+    <img src="pexels-aleksandar-pasaric-2341830trim.jpg" alt="" id="myImage">
+    <div id="whiteOpa"></div>
+    <div id="brand">sarmad</div>
+    <nav>
+        <ul>
+            <a href=""><li> <span> Items |</span> منتجات</li></a>
+            <li></li>
+            <a href=""><li><span> Video Editing |</span> مونتاج</li></a>
+            <li></li>
+            <a href=""><li><span> Occasions |</span> مناسبات</li></a>
+        </ul>
+    </nav>
+    <p>image by <a href="https://www.pexels.com/">pexels</a></p>
+</header>
+<body>
+    <style>
+        @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+        @import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Amiri', serif;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            
+        }
+
+        header{
+            width: 100%;
+            height: 400px;
+           /* background-image: url(pexels-aleksandar-pasaric-2341830trim.jpg);*/
+            /*background-repeat: no-repeat;*/
+            /*background-position: 100% 100%; cover  */
+           /* background-size: cover;*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 0;
+        }
+
+        #myImage{
+            display: flex;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+        }
+        nav{
+            background-color: white;
+            /*border: rgb(93, 92, 92) 4px solid;*/
+            border-radius: 10px;
+            width: 70%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        header p{
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 20px;
+            color: white;
+        }
+        header p a{
+            color: rgb(130, 1, 250);
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            font-size: 25px;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        ul li{
+            color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+   
+        #brand{
+            position: absolute;
+            top:20px;
+            left: 20px;
+            font-size: 20px;
+            font-family: 'Lucida Handwriting Std', sans-serif;
+            color: #fff;
+            z-index: 1000;
+            text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 21px #fff,
+                0 0 42px #0fa,
+                0 0 82px #0fa,
+                0 0 92px #0fa,
+                0 0 102px #0fa,
+                0 0 151px #0fa;
+        }
+        /*
+        #whiteOpa{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            position: absolute;
+            opacity: 0.2;
+        }
+       */
+       
+        .container3{
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap; 
+            height: 100%;
+            width: 100%;
+            margin: 50px 50px 50px 0px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        #painting1{
+            height: 250px;
+            width: 400px;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+
+        #painting1 img{
+            width: 100%;
+            height: 100%;
+        }
+        
+        #svgIcon3{
+            position: relative;
+            z-index: 1000;
+            
+        }
+        #testblue{
+            background-color: darkblue;
+        }
+
+        footer{
+            width: 100%;
+            height: 60px;
+            background-color: rgb(53, 53, 53);
+            color: white;
+            font-size: 20px;
+            position: relative;
+            bottom: 0;
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 1000px){
+            span{
+                display: none;
+            }
+        }
+
+        /*    resposive website      */
+        @media (max-width: 950px){
+
+            #painting1{
+                height: 400px;
+                width: 100%;
+            }
+        }
+
+
+        @media (max-width: 920px){
+            #testblue{
+                background-color: hotpink;
+            }
+        }
+    </style>
+   
+   
+    <div class="container3">
+        <div id="painting1">
+            <img src="albom/4SR_0544.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_0565.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_2980.JPG" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_3043.JPG" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_5314.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_6487.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_6832.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_6833.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_6834.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_6837.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_6851.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_7595.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_7841.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_8323.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_8404.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_8934.png" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/4SR_9208(1).jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/DSC01606.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/DSC_0095.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/DSC_1521.jpg" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/DSC_1780.JPG" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/Rania-13.png" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/Ruwaida-1.png" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/Ruwaida-10.png" alt="">
+        </div>
+        <div id="painting1">
+            <img src="albom/Ruwaida-11.png" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/Ruwaida-12.png" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/Ta8wa-13.png" alt="">
+        </div>
+        <div id="painting1" >
+            <img src="albom/Ta8wa-9.png" alt="">
+        </div>
+ 
+    </div>
+    
+</body>
+<footer>
+    
+    <p>All rights reserved</p>     
+    
+</footer>
+</html>

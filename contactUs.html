@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا</title>
+</head>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<style>
+    @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+    @import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Amiri', serif;
+        }
+        /*
+        html{
+         
+            height: 100%; 
+            width: 100%;
+            background-color: blue;
+         }
+        */
+        #navbar{
+            height: 100%;
+            width: 300px;
+            /*background-color: rgb(255, 0, 195); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        position:absolute;
+        z-index: 1000;
+      }
+        nav a {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+      }
+        #brand{
+            height: 100%;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-family: 'Lucida Handwriting Std', sans-serif;
+            color: #fff;
+            text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 21px #fff,
+                0 0 42px #0fa,
+                0 0 82px #0fa,
+                0 0 92px #0fa,
+                0 0 102px #0fa,
+                0 0 151px #0fa;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            min-height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap; 
+            background-color: rgb(38, 38, 38);
+            padding-bottom: 200px;
+            /*
+            height: calc(100% - 60px);*/
+            /*
+            height: calc(100% - 60px);*/   
+        }
+
+        #contactUs{
+            height: 150px;
+            width: 100%;
+            background-image: url(communicating-sharing-messages-information-age-260nw-1942576132.webp);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            color: white;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example {
+                0%{color : rgb(255, 89, 0);}
+                25%{color : rgb(250, 3, 250);}
+                50%{color : rgb(123, 255, 0);}
+                75%{color : rgb(0, 145, 255);}
+                100%{color : yellow;}
+               
+            }
+
+
+
+        header{
+            width: 100%;
+            height: 60px;
+            background-color: rgb(53, 53, 53);
+            /*  background-color: rgb(160, 13, 13); */
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            /*opacity: 0.4;*/
+        }
+    
+        #painting1{
+            height: 250px;
+            width: 200px;
+            background-color: #5b4f01;
+            margin: 30px;
+            /*
+            #5b0140
+            display: flex;
+            justify-content: center;
+            align-items: center;*/
+            border-radius: 10px;
+            
+        }
+        
+
+        /*
+      
+        #painting1:hover{
+            background-color: #ffd700;
+        }
+        */
+        
+        
+        #painting1:hover{
+            background: #ffd700;
+           /* color: #050801;*/
+            box-shadow: 0 0 5px #ffd700,
+                0 0 25px #ffd700,
+                0 0 50px #ffd700,
+                0 0 200px #ffd700;
+            -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+        }
+        /* if hovered change element inside it  */
+        #painting1:hover p{
+            color: rgb(38, 38, 38); 
+        }
+
+        #centered{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .card{
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+           /* background-color: rgb(140, 127, 255)*/
+        }
+
+        a{
+           /* text-underline-offset: none;*/
+           text-decoration: none;
+        } 
+        .card p{
+            margin-top: 30px;
+            font-size: 25px;
+            width: 100%;
+            color: white;
+            display: flex;
+            justify-content: center
+        }
+
+
+        #painting1 img{
+            width: 40px;
+            height: 40px;
+          
+        }
+
+        footer{
+            width: 100%;
+            height: 60px;
+            background-color: rgb(53, 53, 53);
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            bottom: 0;
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @media (max-width: 950px){
+
+        
+}
+</style>
+<header>
+    <div id="brand">sarmad</div>
+    <div id="navbar">
+        <nav>
+            <a href="contactUs.html" style="margin-right: 30px;">اتصل بنا</a>
+            <p style="color:white">|</p>
+            <a href="artwork.html">  معرض الاعمال</a>
+          </nav>
+    </div>
+</header>
+<body>
+        <div id="contactUs">
+            <h3> للحجز و الاستفسار</h3>
+        </div>
+        <a href="tel:+9647519021230" >
+           
+            <div id="painting1" >
+            <div id="centered" style="margin-top: 40px;"><img src="svg/phone-call-svgrepo-com.png" alt="" style="margin-top: 30px;"></div>
+            <div class="card">
+                <p>للاتصال عبرالهاتف</p>
+                <p>+9647519021230 </p>
+                <p style="margin-top: 0px;">+9647709394752 </p>
+            </div>
+            </div>
+        </a>
+        <a href="https://www.facebook.com/rmD.4Sx?mibextid=ZbWKwL">
+            <div id="painting1" >
+            <div id="centered" style="margin-top: 40px;"><img src="svg/facebook-rounded-svgrepo-com.svg" alt=""></div>
+            <div class="card">
+                <p> للمراسلة عبر الفيسبوك</p>
+                <p>SrmD AL-Lehaiby </p>
+            </div>
+        </a>
+        </div>
+        <a href="https://wa.me/+9647709394752">
+            <div id="painting1" >
+            <div id="centered" style="margin-top: 40px;"> <img src="svg/whatsapp-128-svgrepo-com.svg" alt="" style="margin-top: 30px;"></div>
+            <div class="card">
+                <p> للمراسلة عبر واتساب</p>
+                <p>+9647709394752 </p>
+            </div>
+        </div>
+        </a>
+
+        <a href="https://instagram.com/allehaiby?igshid=YmMyMTA2M2Y=" >
+            <div id="painting1"  >
+            <div id="centered" style="margin-top: 40px;"> <img src="svg/instagram-svgrepo-com.png" alt="" style="margin-top: 30px;"></div>
+            <div class="card">
+                <p>للمراسلة عبر انستكرام </p>
+                <p> SrmD AL-Lehaiby</p>
+            </div>
+        </div>
+        </a>
+       
+    
+</body>
+<footer>
+    <p>all right</p>
+</footer>
+
+
+</html>
